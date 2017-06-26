@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Getting Started: Serving Web Content</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+ <script type="text/javascript" src="https://cdn.bootcss.com/jquery.form/4.2.1/jquery.form.js"></script>     
+<script type="text/javascript" src="https://cdn.bootcss.com/jquery.form/4.2.1/jquery.form.min.js"></script> 
+<script src="https://cdn.bootcss.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+<form id="matrix" method="POST" enctype="multipart/form-data" action="javascript:showResult()" >
+    <p>矩阵a：<input type="file" name="matrix_a" /></p>
+    <p>矩阵b：<input type="file" name="matrix_b" /></p>
+    <p><input type="submit" value="提交计算" /></p>
+</form>
+
+<script type="text/javascript">
+function showResult() {
+$.ajax({
+	url: "/upload",
+	data: new FormData($("#matrix")[0]),
+	type:"post",
+	cache:false,
+	processData:false,
+	contentType:false,
+	success:function(data){
+		alert(data);
+	}
+});
+}
+</script>
+</body>
+
+</html>
+
