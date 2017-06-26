@@ -43,11 +43,9 @@ Visit [http://127.0.0.1](http://127.0.0.1:8000) to enter web monitor.
 
 Choose two matrix txt files and submit, the format of file is listed as following:
 
-1 2 3
-
-4 5 6
-
-7 8 9
+1 2 3  
+4 5 6  
+7 8 9  
 
 We have provide some of files in this project for test.
 
