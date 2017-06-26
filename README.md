@@ -41,6 +41,14 @@ Visit [http://127.0.0.1](http://127.0.0.1) to enter application.
 
 Visit [http://127.0.0.1](http://127.0.0.1:8000) to enter web monitor.
 
+Choose two matrix txt files and submit, the format of file is listed as following:
+
+1 2 3
+4 5 6
+7 8 9
+
+We have provide some of files in this project for test.
+
 ## Docker Image ##
 
 **链接：**[http://pan.baidu.com/s/1dE7demt ](http://pan.baidu.com/s/1dE7demt )
