@@ -1,6 +1,6 @@
 # Web-Matrix #
 
-	It is a simple demo that compter matrix multiplication by a series of micro services
+	It is a simple demo that computes matrix multiplication by a series of micro services
 	
 ## Projects ##
 
@@ -41,7 +41,7 @@ sudo docker run -d --net=host vector
 
 Visit [http://127.0.0.1](http://127.0.0.1) to enter application.
 
-Visit [http://127.0.0.1](http://127.0.0.1:8000) to enter web monitor.
+Visit [http://127.0.0.1:8000](http://127.0.0.1:8000) to enter web monitor.
 
 Choose two matrix txt files and submit, the format of file is listed as following:
 
