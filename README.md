@@ -1,5 +1,7 @@
 # Web-Matrix #
 
+	It is a simple demo that compter matrix multiplication by a series of micro services
+	
 ## Projects ##
 
 - **eureka_register_service**
@@ -47,7 +49,7 @@ Choose two matrix txt files and submit, the format of file is listed as followin
 4 5 6  
 7 8 9  
 
-We have provide some of files in this project for test.
+We have provided some of files in this project for test.
 
 ## Docker Image ##
 
