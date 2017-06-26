@@ -20,7 +20,26 @@
 
 ## How to run ##
 
-balabala...
+```shell
+# load images from compressed files
+sudo docker load < register.tar
+sudo docker load < router.tar 
+sudo docker load < matrix.tar
+sudo docker load < vector.tar
+
+# run container, each contianer launching must have 5 seconds interval
+sudo docker run -d --net=host register
+sleep 5
+sudo docker run -d --net=host router
+sleep 5
+sudo docker run -d --net=host matrix
+sleep 5
+sudo docker run -d --net=host vector 
+```
+
+Visit [http://127.0.0.1](http://127.0.0.1) to enter application.
+
+Visit [http://127.0.0.1](http://127.0.0.1:8000) to enter web monitor.
 
 ## Docker Image ##
 
